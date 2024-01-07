@@ -6,12 +6,7 @@
 
   @include onTABS {
     display: flex;
-    margin-left: 38px;
-  }
-
-  @include onDesktop {
-    display: flex;
-    margin-left: 102px;
+    margin-left: 10%;
   }
 
   &__work {
@@ -21,12 +16,20 @@
 
   &__text {
     @include onTABS {
-      width: 35%;
+      width: 32%;
       padding: 40px 0;
     }
     @include onDesktop {
       width: 30%;
       padding: 40px 0;
+    }
+  }
+
+  &__container {
+    margin-left: 5%;
+
+    @include onDesktop {
+      margin-left: 10%;
     }
   }
 

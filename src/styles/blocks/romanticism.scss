@@ -52,6 +52,7 @@
     padding: 0;
 
     @include onTABS {
+      box-sizing: border-box;
       padding: 0 34px;
       height: 390px;
     }
