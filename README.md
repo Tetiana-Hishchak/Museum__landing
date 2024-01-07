@@ -11,11 +11,11 @@ You can see the <a href="https://www.figma.com/file/cRBCqE06cDrY3s4jX7h3iY/%D0%9
 
 # Technologies Used
 
--- HTML
--- CSS
--- javaScript
--- SCSS
--- Swiper
+  - HTML
+  - CSS
+  - javaScript
+  - SCSS
+  - Swiper
 
 
 # Setup Instructions

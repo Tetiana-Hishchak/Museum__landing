@@ -1,6 +1,11 @@
 .menu {
   background: #1a5a4c;
-  z-index: 2;
+  height: 55vh;
+
+  @include onTABS {
+    height: 35vh;
+  }
+
 
   &__container {
     box-sizing: border-box;
@@ -75,5 +80,11 @@
     @include onDesktop {
       font-size: 22px;
     }
+  }
+
+  &__background {
+    opacity: 0.5;
+    background: #18181A;
+    height: 100vh;
   }
 }
