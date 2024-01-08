@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var e,i=!1;function n(){window.innerWidth<1024?i||(i=!0,e=new Swiper(".swiper",{slidesPerView:1,spaceBetween:16,pagination:{el:".swiper-pagination",bulletClass:"swiper-pagination-bullet",bulletActiveClass:"swiper-pagination-bullet--active",clickable:!0},breakpoints:{640:{slidesPerView:2,spaceBetween:20}}})):i&&(e.destroy(),i=!1)}n(),window.addEventListener("resize",n)});
+//# sourceMappingURL=index.4267f31a.js.map
