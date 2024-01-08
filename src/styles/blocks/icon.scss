@@ -20,11 +20,14 @@
   }
 
   &__close {
+    height: 18px;
+    width: 18px;
     background-image: url(../images/close.svg);
     margin-right: 34px;
 
-    @include onDesktop {
-      margin-right: 44px;
+
+    @include onTABS {
+      margin-right: 24px;
     }
 
     @include onDesktop {

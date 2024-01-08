@@ -1,14 +1,9 @@
 .menu {
-  background: #1a5a4c;
-  height: 40%;
+  height: 100vh;
   z-index: 2;
 
-  @include onTABS {
-    height: 28vh;
-  }
-
-  @include onDesktop {
-    height: 30vh;
+  &__content {
+    background: #1a5a4c;
   }
 
   &__container {
@@ -37,17 +32,10 @@
       border-bottom: none;
       border-right: 1px solid rgba(255, 255, 255, 0.5);
     }
-
-    @include onDesktop {
-      border-bottom: none;
-      border-right: 1px solid rgba(255, 255, 255, 0.5);
-    }
   }
 
   &__list {
     margin: 0;
-    display: flex;
-    flex-wrap: wrap;
     list-style: none;
     padding: 0;
   }
@@ -90,5 +78,9 @@
     opacity: 0.5;
     background: #18181A;
     height: 100vh;
+  }
+
+  &__container--item {
+    display: flex;
   }
 }

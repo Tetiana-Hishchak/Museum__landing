@@ -64,6 +64,7 @@
     border: none;
     background: #f14a27;
     transition: all 1s;
+    cursor: pointer;
 
     @include onTABS {
       width: 70px;
